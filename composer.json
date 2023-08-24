@@ -24,5 +24,6 @@
             "email": "mail2arabi@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "license": "MIT"
 }
