@@ -1,0 +1,28 @@
+{
+    "name": "arabi/robi-sms-api",
+    "description": "package for Robi SMS API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Arabi\\RobiSMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Arabi\\RobiSMS\\RobiSmsServiceProvider"
+            ],
+            "aliases": {
+                "RobiSmsAPI": "Arabi\\RobiSMS\\RobiSMS"
+            }
+        }
+    },
+    "prefer-stable" : true,
+    "authors": [
+        {
+            "name": "arabi",
+            "email": "mail2arabi@gmail.com"
+        }
+    ],
+    "require": {}
+}
